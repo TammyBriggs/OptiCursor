@@ -32,3 +32,19 @@ body {
 .toggle-button:hover {
     background-color: #2563eb;
 }
+
+.calibrate-button {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.calibrate-button:hover {
+    background-color: #059669;
+}
