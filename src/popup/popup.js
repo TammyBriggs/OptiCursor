@@ -25,6 +25,7 @@ function startCalibration() {
     point.style.backgroundColor = 'blue';
     point.style.borderRadius = '50%';
     point.style.pointerEvents = 'none';
+    point.style.zIndex = '9999';
     document.body.appendChild(point);
 
     const nextPoint = () => {
